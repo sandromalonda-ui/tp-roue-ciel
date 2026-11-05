@@ -8,14 +8,9 @@ using namespace std;
 // Constructeur par defaut
 CRoue::CRoue()
 {
-    dimension = 15;
-    marque = "Inconnue";
-    pression = 2.0;
-    crevee = false;
-}
 
 // Constructeur avec parametres
-CRoue::CRoue(int dimension, string marque, float pression)
+CRoue::CRoue(int dimension = 15, string marque = inconnue, float pression = 2.0)
 {
     this->dimension = dimension;
     this->marque = marque;
